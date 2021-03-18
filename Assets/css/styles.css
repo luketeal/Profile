@@ -1,0 +1,80 @@
+:root {
+    --background: rgb(252, 250, 249);
+    --textcolor: rgb(8, 7, 5);
+    --accent1: rgb(56, 134, 151);
+    --accent2: rgb(171, 52, 40);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--textcolor);
+}
+
+.header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent1);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.name {
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.nav-links {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.nav-links a:hover {
+    background-color: var(--accent2);
+}
+
+.nav-links a {
+    padding: 1rem;
+}
+
+.topmargin {
+    padding-top: 5rem;
+}
+
+.row-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titlecard {
+    flex: 1 10rem;
+    max-width: 10rem;
+    border-right: .2rem solid;
+    border-color: var(--accent2);
+}
+
+.aboutcontent {
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.workcontent {
+    flex: 1;
+    padding-left: 1rem;
+}
