@@ -1,3 +1,5 @@
+/* 1.0 General */
+
 :root {
     --background: rgb(252, 250, 249);
     --textcolor: rgb(8, 7, 5);
@@ -18,6 +20,8 @@ body {
     color: var(--textcolor);
 }
 
+/* 2.0 Header */
+
 .header-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -30,26 +34,38 @@ body {
     width: 100%; /* Full width */
 }
 
+/* 2.1 Name */
+
 .name {
     flex: 1;
     padding-left: 1rem;
 }
+
+/* 2.2 Nav bar */
 
 .nav-links {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 100%;
 }
 
-.nav-links a:hover {
-    background-color: var(--accent2);
+/* .nav-links a:hover { */
+    /* background-color: var(--accent2); */
+/* } */
+
+.nav-links li {
+    list-style-type: none;
+
 }
 
 .nav-links a {
     padding: 1rem;
+    color: var(--textcolor);
+    text-decoration: none;
 }
+
+/* 3.0 Main Content */
 
 .topmargin {
     padding-top: 5rem;
@@ -58,7 +74,7 @@ body {
 .row-wrap {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: stretch;
 }
@@ -78,6 +94,8 @@ body {
     padding: 1rem;
 }
 
+/* 3.1 About Me */
+
 .mypicture {
     max-height: var(--minsectionhght);
     padding: 1rem;
@@ -89,17 +107,38 @@ body {
     align-self: center;
 }
 
+/* 3.2 My Work */
+
 .workcontent {
     flex: 1;
     padding: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .contentcard {
-    max-width: 300px;
+    flex: 1;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid;
+    border-radius: 1rem;
+    border-color: var(--accent2);
+    margin: 0.5rem;
+}
+
+/* makes first project the whole width of the container */
+
+.workcontent :first-child {
+    flex: 1 100%;
+    width: 100%;
     overflow: hidden;
 }
   
