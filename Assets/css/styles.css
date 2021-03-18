@@ -3,6 +3,7 @@
     --textcolor: rgb(8, 7, 5);
     --accent1: rgb(56, 134, 151);
     --accent2: rgb(171, 52, 40);
+    --minsectionhght: 25rem;
 }
 
 * {
@@ -57,24 +58,56 @@ body {
 .row-wrap {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
 }
 
 .titlecard {
-    flex: 1 10rem;
-    max-width: 10rem;
+    flex: 1 12rem;
+    max-width: 12rem;
     border-right: .2rem solid;
-    border-color: var(--accent2);
+    border-color: var(--accent2);;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.mypicture {
+    max-height: var(--minsectionhght);
+    padding: 1rem;
 }
 
 .aboutcontent {
     flex: 1;
-    padding-left: 1rem;
+    padding: 1rem;
+    align-self: center;
 }
 
 .workcontent {
     flex: 1;
-    padding-left: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contentcard {
+    max-width: 300px;
+    overflow: hidden;
+}
+  
+.flag {
+    width: 0; 
+    height: 0; 
+    border-top: 2rem solid var(--accent2);
+    border-bottom: 2rem solid var(--accent2); 
+    border-left: 2rem solid var(--accent2);
+    border-right: 2rem solid transparent; 
 }
