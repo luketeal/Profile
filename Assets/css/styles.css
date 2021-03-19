@@ -110,7 +110,6 @@ header {
     margin-left: 1rem;
     border: var(--accent2);
     border-radius: 1rem;
-    /* border-color: var(--accent2); */
     box-shadow: .75rem .5rem .5rem grey;
 }
 
@@ -151,9 +150,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: .2rem solid; */
     border-radius: 1rem;
-    /* border-color: var(--accent2); */
     box-shadow: 10px 5px 5px grey;
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -162,29 +159,6 @@ header {
     display: block;
     position: relative;
     margin-top: -5rem;
-}
-
-/* makes first project the whole width of the container */
-
-.workcontent :first-child {
-    flex: 1 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-/* 4.0 Footer */
-
-.bottommargin {
-    margin-bottom: 4rem;
-}
-
-.footercontent {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
 }
 
 .flagbox {
@@ -215,4 +189,81 @@ header {
     border-left: 2rem solid var(--accent2);
     border-right: 2rem solid transparent; 
     z-index: 100;
+}
+
+/* makes first project the whole width of the container */
+
+.workcontent :first-child {
+    flex: 1 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* 4.0 Footer */
+
+.bottommargin {
+    margin-bottom: 4rem;
+}
+
+.footercontent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+        padding-right: 1rem;
+    }
+
+    .header-wrap {
+        flex-direction: column;
+        position: static; 
+    }
+
+    .row-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titlecard {
+        flex: 1;
+        margin-top: 0;
+        max-width: 100%;
+        border-right: 0;
+        margin: 1rem;
+    }
+
+    .nav-links a {
+        padding: .5rem;
+    }
+
+    .topmargin {
+        padding-top: 0rem;
+    }
+
+    .aboutcontentwrap {
+        margin-left: 1rem;
+    }
+    
+    .slogan {
+        display: none;
+    }
+
+    .aboutcontent {
+        padding-top: 1rem;
+    }
+    
+    .workcontent {
+        flex-direction: column;
+        padding-right: 1rem;
+    }
+
+    .bottommargin {
+        margin-bottom: 2rem;
+    }
 }
