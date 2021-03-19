@@ -41,13 +41,16 @@ header {
     position: fixed; 
     top: 0; 
     width: 100%; 
+    color: var(--background);
 }
 
 /* 2.1 Name */
 
 .name {
     flex: 1;
+    font-size: 3rem;
     padding-left: 1rem;
+    color: var(--background);
 }
 
 /* 2.2 Nav bar */
@@ -57,17 +60,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    font-size: 1.25rem;
 }
 
 .nav-links a:hover {
     background-color: var(--accent2);
-    color: var(--background);
 }
 
 .nav-links a {
     padding: 1.5rem 1rem 1.5rem 1rem;
-    color: var(--textcolor);
     text-decoration: none;
+    color: var(--background);
 }
 
 /* 3.0 Main Content */
@@ -104,13 +107,29 @@ header {
 
 .mypicture {
     max-height: var(--minsectionhght);
-    padding: 1rem;
+    margin-left: 1rem;
+    border: var(--accent2);
+    border-radius: 1rem;
+    /* border-color: var(--accent2); */
+    box-shadow: .75rem .5rem .5rem grey;
+}
+
+.aboutcontentwrap {
+    flex: 1;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.slogan {
+    flex: 1;
+    font-size: 2.5rem;
 }
 
 .aboutcontent {
     flex: 1;
-    padding: 1rem;
-    align-self: center;
+    font-size: 1.25rem;
 }
 
 /* 3.2 My Work */
@@ -132,9 +151,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: .2rem solid;
+    /* border: .2rem solid; */
     border-radius: 1rem;
-    border-color: var(--accent2);
+    /* border-color: var(--accent2); */
+    box-shadow: 10px 5px 5px grey;
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
@@ -164,6 +184,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.25rem;
 }
 
 .flagbox {
