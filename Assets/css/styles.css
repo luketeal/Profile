@@ -38,9 +38,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent1);
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 
 /* 2.1 Name */
@@ -59,12 +59,13 @@ header {
     justify-content: flex-end;
 }
 
-/* .nav-links a:hover { */
-    /* background-color: var(--accent2); */
-/* } */
+.nav-links a:hover {
+    background-color: var(--accent2);
+    color: var(--background);
+}
 
 .nav-links a {
-    padding: 1rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
     color: var(--textcolor);
     text-decoration: none;
 }
@@ -171,8 +172,6 @@ header {
     justify-content: flex-start;
     margin-top: 1rem;
     color: var(--background);
-    /* max-width: 5rem; */
-    /* max-height: 100%; */
 }
 
 .flagtext {
