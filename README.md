@@ -10,7 +10,7 @@ The project uses HTML and CSS as a codebase.
 The repository includes
 
 * The [html](./index.html) code;
-* The [CSS Normalize](./Assets/css/styles.css) code to create uniformity across browsers;
+* The [CSS Normalize](./Assets/css/normalize&v8.0.1.css) code to create uniformity across browsers;
 * The [CSS](./Assets/css/styles.css) code; and
 * The [images](./Assets/images).
 
@@ -21,7 +21,7 @@ The primary goal for this website is for it to be responsive to screensize and p
 ## Screenshot
 The image below show's the web app's appearance:
 
-![An image of my portfolio's webpage with about me, my work, and contact info sections.](./assets/images/Screenshot.png)
+![An image of my portfolio's webpage with about me, my work, and contact info sections.](./Assets/images/Screenshot.png)
 
 ## Credits
 
