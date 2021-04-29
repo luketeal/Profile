@@ -16,7 +16,7 @@
     scroll-behavior: smooth;
 }
 
-body {
+main {
     background-color: var(--background);
     color: var(--textcolor);
     padding-right: 4rem;
@@ -234,7 +234,7 @@ My Work and Contact Me sections */
 
 @media screen and (max-width: 992px) {
 
-    body {
+    main {
         padding-right: 1rem;
     }
 
