@@ -197,6 +197,12 @@ My Work and Contact Me sections */
     text-align: right;
 }
 
+.flagtext img {
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 .flag {
     width: 0; 
     height: 0; 
