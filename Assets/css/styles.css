@@ -61,12 +61,17 @@ header {
 
 /* 2.2 Nav bar */
 
-.nav-links {
+.nav-div {
     flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    font-size: 1.25rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .nav-links a {
