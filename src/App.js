@@ -1,8 +1,5 @@
-// import logo from './logo.svg';
-// import './App.css';
 
 import React from 'react';
-// import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/home';
@@ -24,11 +21,11 @@ function App() {
           <Header />
           <div>
 
-            <Route exact path="/">
+            <Route exact path="/profile">
               <Home />
             </Route>
 
-            <Route exact path="/profile">
+            <Route exact path="/profile/profile">
               <Profile />
             </Route>
 
