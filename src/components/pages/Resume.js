@@ -1,14 +1,14 @@
 import React from 'react';
 import profileImg from '../assets/images/luketeal.jpg';
 
-export default function Home() {
+export default function Resume() {
   return (
     <main>
         <article id="about" class="topmargin row-wrap">
             
-            <div class="titlecard flex-column">
+            {/* <div class="titlecard flex-column">
                 <h2>About me</h2>
-            </div>
+            </div> */}
 
             <img 
             src={profileImg}

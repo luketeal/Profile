@@ -25,7 +25,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>Get in touch</strong></a>
         </div>
         <div className="nav-div">
-          <a href="./Assets/downloadable/tealResume.pdf" download target="_blank" className="flex-column"><strong>Resume</strong></a>
+          <a href="#resume" onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Resume`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentPage === 'Resume' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>Resume</strong></a>
           <a href="https://github.com/luketeal" download target="_blank" className="flex-column">
             <img src={githubImg}/>
           </a>
