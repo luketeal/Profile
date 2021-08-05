@@ -6,13 +6,13 @@ import githubImg from '../assets/images/GitHub-Mark-Light-32px.png';
 
 export default function Work() {
   return (
-    <section id="work" class="topmargin row-wrap">
+    <main id="work" class="topmargin row-wrap">
 
-    <div class="titlecard flex-column">
+    {/* <div class="titlecard flex-column">
 
         <h2>My Work</h2>
         
-    </div>
+    </div> */}
 
     <div class="workcontent">
 
@@ -68,6 +68,6 @@ export default function Work() {
         </div>
 
     </div>    
-    </section>
+    </main>
   );
 }

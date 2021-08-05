@@ -6,9 +6,9 @@ export default function About() {
     <main>
         <article id="about" class="topmargin row-wrap">
             
-            <div class="titlecard flex-column">
+            {/* <div class="titlecard flex-column">
                 <h2>About me</h2>
-            </div>
+            </div> */}
 
             <img 
             src={profileImg}
