@@ -17,12 +17,12 @@ function NavTabs({ currentPage, handlePageChange }) {
       </h1>
       <nav className="nav-links">
         <div className="nav-div">
-        <a href="#about" onClick={() => handlePageChange('Home')}
+        <a href="#about" onClick={() => handlePageChange('About')}
           // Check to see if the currentPage is `About`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Home' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>About</strong></a>
-        <a href="#work" onClick={() => handlePageChange('Blog')}
-          // Check to see if the currentPage is `Blog`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Blog' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>Work</strong></a>
+          className={currentPage === 'About' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>About</strong></a>
+        <a href="#work" onClick={() => handlePageChange('Work')}
+          // Check to see if the currentPage is `Work`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Work' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>Work</strong></a>
         <a href="#contact" onClick={() => handlePageChange('Contact')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'flex-column nav-link active' : 'flex-column nav-link'}><strong>Get in touch</strong></a>
