@@ -1,24 +1,73 @@
 import React from 'react';
+import paddockImg from '../assets/images/paddock.png';
+import concertCloudImg from '../assets/images/concertcloud.png';
+import techBlogImg from '../assets/images/techblog.gif';
+import githubImg from '../assets/images/GitHub-Mark-Light-32px.png';
 
 export default function Work() {
   return (
-    <div>
-      <h1>Work Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <section id="work" class="topmargin row-wrap">
+
+    <div class="titlecard flex-column">
+
+        <h2>My Work</h2>
+        
     </div>
+
+    <div class="workcontent">
+
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Paddock</strong></p>
+                    <a href="https://github.com/luketeal/projectAwesome"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://shielded-tor-91530.herokuapp.com" target="_blank">
+                <img 
+                src={paddockImg}
+                alt="an image of a website showing Paddock"/>
+            </a>
+        </div>
+
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Concert Cloud</strong></p>
+                    <a href="https://github.com/luketeal/concertcloud"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://luketeal.github.io/concertcloud/" target="_blank">
+                <img 
+                src={concertCloudImg}
+                alt="an image of a website showing concert cloud"/>
+            </a>
+        </div>
+
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Tech Blog</strong></p>
+                    <a href="https://github.com/luketeal/techblog"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
+                <img 
+                src={techBlogImg}
+                alt="an image of a tech blogging website"/>
+            </a>
+        </div>
+
+    </div>    
+    </section>
   );
 }
