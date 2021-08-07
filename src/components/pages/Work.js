@@ -2,121 +2,59 @@ import React from 'react';
 import paddockImg from '../assets/images/paddock.png';
 import concertCloudImg from '../assets/images/concertcloud.png';
 import techBlogImg from '../assets/images/techblog.gif';
-import githubImg from '../assets/images/GitHub-Mark-Light-32px.png';
+import codeQuizImg from '../assets/images/codequiz.png';
+import budgetTrackerImg from '../assets/images/PWAbudgetTracker.gif';
+import workoutTrackerImg from '../assets/images/workoutTracker.gif';
+import ContentCard from './components/Contentcard';
 
 export default function Work() {
+
   return (
     <main id="work" class="topmargin row-wrap">
-
-    {/* <div class="titlecard flex-column">
-
-        <h2>My Work</h2>
-        
-    </div> */}
-
-    <div class="workcontent">
-
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Paddock</strong></p>
-                    <a href="https://github.com/luketeal/projectAwesome"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://shielded-tor-91530.herokuapp.com" target="_blank">
-                <img 
-                src={paddockImg}
-                alt="an image of a website showing Paddock"/>
-            </a>
-        </div>
-
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Concert Cloud</strong></p>
-                    <a href="https://github.com/luketeal/concertcloud"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://luketeal.github.io/concertcloud/" target="_blank">
-                <img 
-                src={concertCloudImg}
-                alt="an image of a website showing concert cloud"/>
-            </a>
-        </div>
-
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Tech Blog</strong></p>
-                    <a href="https://github.com/luketeal/techblog"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
-                <img 
-                src={techBlogImg}
-                alt="an image of a tech blogging website"/>
-            </a>
-        </div>
-
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Tech Blog</strong></p>
-                    <a href="https://github.com/luketeal/techblog"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
-                <img 
-                src={techBlogImg}
-                alt="an image of a tech blogging website"/>
-            </a>
-        </div>
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Tech Blog</strong></p>
-                    <a href="https://github.com/luketeal/techblog"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
-                <img 
-                src={techBlogImg}
-                alt="an image of a tech blogging website"/>
-            </a>
-        </div>
-        <div class="contentcard">
-            <div class="flagbox">
-                <div class="flagtext">
-                    <p><strong>Tech Blog</strong></p>
-                    <a href="https://github.com/luketeal/techblog"target="_blank">
-                        <img src={githubImg}/>
-                    </a>
-                </div>
-                <div class="flag"></div>
-            </div>
-            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
-                <img 
-                src={techBlogImg}
-                alt="an image of a tech blogging website"/>
-            </a>
-        </div>
-
-    </div>    
+        <div class="workcontent">
+            <ContentCard 
+                name='Paddock' 
+                repo='https://github.com/luketeal/projectAwesome' 
+                url='https://shielded-tor-91530.herokuapp.com' 
+                Img={paddockImg} 
+                alt='an image of a website showing Paddock'
+            />
+            <ContentCard 
+                name='Tech Blog' 
+                repo='https://github.com/luketeal/techblog' 
+                url='https://immense-meadow-35382.herokuapp.com/' 
+                Img={techBlogImg} 
+                alt='an image of a tech blogging website'
+            />
+            <ContentCard 
+                name='Code Quiz' 
+                repo='https://github.com/luketeal/projectAwesome' 
+                url='https://shielded-tor-91530.herokuapp.com' 
+                Img={codeQuizImg} 
+                alt='an image of a Javascript quiz'
+            />
+            <ContentCard 
+                name='Budget Tracker' 
+                repo='https://github.com/luketeal/PWAbudgetTracker' 
+                url='https://sheltered-castle-78350.herokuapp.com/' 
+                Img={budgetTrackerImg} 
+                alt='an image of a website showing a budget tracker application'
+            />
+            <ContentCard 
+                name='Workout Tracker' 
+                repo='https://github.com/luketeal/workoutTracker' 
+                url='https://arcane-coast-95311.herokuapp.com/' 
+                Img={workoutTrackerImg} 
+                alt='an image of a website showing a workout tracker'
+            />
+            <ContentCard 
+                name='Concert Cloud' 
+                repo='https://github.com/luketeal/concertcloud' 
+                url='https://luketeal.github.io/concertcloud/' 
+                Img={concertCloudImg} 
+                alt='an image of a website showing concert cloud'
+            />
+        </div>    
     </main>
   );
 }
