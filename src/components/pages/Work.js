@@ -67,6 +67,55 @@ export default function Work() {
             </a>
         </div>
 
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Tech Blog</strong></p>
+                    <a href="https://github.com/luketeal/techblog"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
+                <img 
+                src={techBlogImg}
+                alt="an image of a tech blogging website"/>
+            </a>
+        </div>
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Tech Blog</strong></p>
+                    <a href="https://github.com/luketeal/techblog"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
+                <img 
+                src={techBlogImg}
+                alt="an image of a tech blogging website"/>
+            </a>
+        </div>
+        <div class="contentcard">
+            <div class="flagbox">
+                <div class="flagtext">
+                    <p><strong>Tech Blog</strong></p>
+                    <a href="https://github.com/luketeal/techblog"target="_blank">
+                        <img src={githubImg}/>
+                    </a>
+                </div>
+                <div class="flag"></div>
+            </div>
+            <a href="https://immense-meadow-35382.herokuapp.com/" target="_blank">
+                <img 
+                src={techBlogImg}
+                alt="an image of a tech blogging website"/>
+            </a>
+        </div>
+
     </div>    
     </main>
   );
