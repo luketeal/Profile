@@ -16,7 +16,7 @@ The primary goal for this website is for it to be responsive to screensize, be b
 ## Screenshot
 The image below show's the web app's appearance:
 
-![An image of my portfolio's webpage with about me, my work, and contact info sections.](./Assets/images/Screenshot.png)
+![An image of my portfolio's webpage with about me, my work, and contact info sections.](./assets/images/Screenshot.gif)
 
 ## Credits
 
