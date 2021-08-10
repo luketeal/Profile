@@ -2,15 +2,13 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <main id="getintouch" class="topmargin row-wrap bottommargin">
+    <main id="getintouch" className="topmargin row-wrap bottommargin">
         {/* <div class="titlecard flex-column">
             <h2>Contact Info</h2>
         </div> */}
-        <ul class="footercontent">
-            <li>l.teal21@gmail.com</li>
-            <li>508.873.5448</li>
-            <li>Dover <span>{String.fromCharCode(183)}</span> NH</li>
-        </ul>
+        <div className="formcontent">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdvjgwnj_ISH1oEhbU-F_nVa21PKSOoWSbd3irnDYvkYY-Flg/viewform?embedded=true" width="100%" height="840" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
+        </div>
     </main>
   );
 }

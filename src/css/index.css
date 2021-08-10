@@ -254,6 +254,21 @@ My Work and Contact Me sections */
     font-size: 1.25rem
 }
 
+/* Form */
+
+.formcontent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.25rem; */
+    text-align: center;
+    /* height: "900"; */
+    /* padding: 1rem; */
+    /* margin-left: -2rem;
+    margin-right: -2rem; */
+}
+
 /* 4.0 Footer */
 
 .bottommargin {
