@@ -10,8 +10,8 @@ import ContentCard from './components/Contentcard';
 export default function Work() {
 
   return (
-    <main id="work" class="topmargin row-wrap">
-        <div class="workcontent">
+    <main id="work" className="topmargin row-wrap">
+        <div className="workcontent">
             <ContentCard 
                 name='Paddock' 
                 repo='https://github.com/luketeal/projectAwesome' 

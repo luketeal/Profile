@@ -4,20 +4,20 @@ import profileImg from '../assets/images/luketeal.jpg';
 export default function About() {
   return (
     <main>
-        <article id="about" class="topmargin row-wrap">
+        <article id="about" className="topmargin row-wrap">
             
-            {/* <div class="titlecard flex-column">
+            {/* <div className="titlecard flex-column">
                 <h2>About me</h2>
             </div> */}
 
             <img 
             src={profileImg}
             alt="luke with a black jacket and a sky background"
-            class="mypicture"/>
+            className="mypicture"/>
 
-            <div class="aboutcontentwrap">
-                <p class="slogan">Build<span> {String.fromCharCode(183)} </span>Learn<span> {String.fromCharCode(183)} </span>Fun</p>
-                <p class="aboutcontent">A University of New Hampshire graduate in 2011, I
+            <div className="aboutcontentwrap">
+                <p className="slogan">Build<span> {String.fromCharCode(183)} </span>Learn<span> {String.fromCharCode(183)} </span>Fun</p>
+                <p className="aboutcontent">A University of New Hampshire graduate in 2011, I
                     have a passion for learning new things, having fun outdoors with my family,
                     and traveling all around the world. The thing that has really gotten me going
                     these days is coding and web development. I've been participating in a coding 
