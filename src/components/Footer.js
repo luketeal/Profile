@@ -14,6 +14,9 @@ function Footer({ currentPage, handlePageChange }) {
           <a href="https://linkedin.com/in/luke-teal-48408a45" download target="_blank" className="flex-column">
             <img src={linkedinImg}/>
           </a>
+          <a href="mailto:l.teal21@gmail.com?subject=Contact Luke Teal" className="flex-column">
+            l.teal21@gmail.com
+          </a>
         {/* </ul> */}
     </footer>
   );

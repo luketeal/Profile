@@ -285,6 +285,11 @@ My Work and Contact Me sections */
     text-align: center;
 }
 
+.footercontent a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
 /* 5.0 Make screen readable for smaller divices */
 
 @media screen and (max-width: 992px) {
