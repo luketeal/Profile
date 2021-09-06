@@ -15,21 +15,21 @@ export default function Work() {
             <ContentCard 
                 name='Paddock' 
                 repo='https://github.com/luketeal/projectAwesome' 
-                url='https://shielded-tor-91530.herokuapp.com' 
+                url='https://pddck.herokuapp.com/' 
                 Img={paddockImg} 
                 alt='an image of a website showing Paddock'
             />
             <ContentCard 
                 name='Tech Blog' 
                 repo='https://github.com/luketeal/techblog' 
-                url='https://immense-meadow-35382.herokuapp.com/' 
+                url='https://allabouttek.herokuapp.com/' 
                 Img={techBlogImg} 
                 alt='an image of a tech blogging website'
             />
             <ContentCard 
                 name='Code Quiz' 
                 repo='https://github.com/luketeal/projectAwesome' 
-                url='https://shielded-tor-91530.herokuapp.com' 
+                url='https://luketeal.github.io/Code-Quiz/' 
                 Img={codeQuizImg} 
                 alt='an image of a Javascript quiz'
             />
